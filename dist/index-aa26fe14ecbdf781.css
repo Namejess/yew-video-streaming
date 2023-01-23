@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.consumer {
+  background-color: blue;
+  padding: 10px;
+}
+
+.producer {
+  background-color: rgb(197, 171, 53);
+  padding: 10px;
+}
+
+.consumer h3 {
+  color: white;
+}
